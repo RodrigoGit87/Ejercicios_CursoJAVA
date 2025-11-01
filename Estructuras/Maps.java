@@ -5,7 +5,6 @@ import java.util.HashMap;
 public class Maps {
     static void main(){
 
-
         // Declaracion y creacion
         HashMap <String,String> names = new HashMap<>();
         var numbers = new HashMap<Integer, String>();
@@ -49,7 +48,8 @@ public class Maps {
 
         //Modificar elementos
         /*Tengo creado la clave "Rodrigo ", al crear otro .put con el mismo nombre de clave, poner otro valor a la clave
-        modifica el valor de la clave original. Y no crea otro elemento con la misma clave pero diferente valor como
+        modifica el valor de la clave original.
+        Y no crea otro elemento con la misma clave pero diferente valor como
         podriamos pensar en un primer momento.*/
         names.put("Rodrigo ", "helloworld@gmail.com");
         IO.println(names); /* <-- Compruebo aqui que efectivamente el valor de "Rodrigo " originalmente era
@@ -58,11 +58,6 @@ public class Maps {
 
         names.replace ("RodrigoDEV ", "DEVWorld@java.com");//replace si modifica una clave:valor q ya exista en el array hashmap
         IO.println(names);
-
-
-
-
-
 
     }
 }

@@ -1,8 +1,7 @@
 package Practicas_Rodrigo.Estructuras;
 /*La principal diferencia con el ArrayList es que en vez de guardarse en posiciones dentro de un indice,
 se guardan con un hash. ESto hace que se guarde de manera desordenada pero que se puede acceder de
-manera  mas rápida.
- */
+manera mas rápida.*/
 
 import java.util.HashSet;
 
@@ -13,7 +12,7 @@ public class Set {
         var numbers = new HashSet<Integer>();//otra manera
 
         //tamaño
-        IO.println(names.size());
+        //IO.println(names.size());
 
 
         //Añadir elementos
@@ -26,19 +25,17 @@ public class Set {
         //Eliminar elementos
         //names.remove("Rosa melano ");
 
-
         //Acceder a elementos
         /*En los HashSet no sabemos el orden en el que se guardan, por tanto no podemos usar el modo de
         acceder como con los ArrayList (.get(posicion), .getFirst(), .getLast() )
          Entonces trabajar con HashSet es util si no vamos a modificar el orden dentro del array, la forma de
          buscar un elemento en el array es con el metodo contains*/
 
-
         //Buscar elementos
         IO.println("HashSet contiene Gandalf ?: "+ names.contains("Gandalf ")); //<-True
         IO.println("HashSet contiene rodrigo?: " + names.contains("rodrigo"));//<- False
 
-        /*Otra cualidad de los HashSet, es q no permite repetir el mismo elemento, en un Arrraylist si se puede pro que
+        /*Otra cualidad de los HashSet, es q no permite repetir el mismo elemento, en un Arrraylist si se puede por que
         el elemento con el mismo valor simplemente tiene una posicion nueva en el indice.
 
         - ejemplo, añado 3 Hornet, pero no existen 4 Hornet,se queda en 1, y como se ve, el size del array sigue

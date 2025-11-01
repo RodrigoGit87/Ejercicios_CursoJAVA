@@ -9,8 +9,7 @@ public class List {
         ArrayList<String> names = new ArrayList<>();//Hay que definir el tipo de array con <String> en este caso
 
         var numbers = new ArrayList<Integer>();/*Para crear un arrayList de numeros enteros, tenemos q indicar <Integer>
-        por que con los datos primitivos da error. Integer es como int pero en clase objeto. Y con los objetos si podemos
-        dar más instrucciones*/
+        por que con los datos primitivos da error.*/
 
         //tamaño del array
         //names.size();
@@ -25,7 +24,7 @@ public class List {
 
         //Acceder a elementos
         //names.get(posicion));
-        IO.println(names.get(0));
+        IO.println(names.get(1));
         //otras formas
         //names.getFirst()); y names.getLast());
         IO.println(names.getFirst()+"\n");
