@@ -16,9 +16,10 @@ public class Arrays {
 
 
         //Acceso
+        IO.println("\n--------------");
         IO.println(nombre[0]);
         //Creacion y Acceso en una linea
-        IO.println((new String [3])[0]);
+        //(new String [3])[0];
 
         //Modificar datos
         number [0]= 69;
@@ -27,18 +28,17 @@ public class Arrays {
         IO.println(number[1]);
 
         IO.println("\nCambiar el valor de una posicion en un array tipo string");
-        IO.print (nombre[3]);
-        nombre[3]= "\nVirGiNia";
-        IO.print (nombre[3]);
+        IO.println ("Posicion 3,De: "+nombre[3]);
+        nombre[3]= "VirGiNia";
+        IO.println ("posicion 3, a: "+nombre[3]);
 
         IO.println("\nCambiar el valor a null(vacio),de una posicion en un array tipo string");
-        IO.print (nombre[3]+"\n");
         nombre [3] = null;
-        IO.print (nombre[3] +"\n");
-        IO.print (nombre.length);
+        IO.println ("posicion 3: "+nombre[3]);
+        IO.println ("nombre.length "+nombre.length);
 
-        IO.println("\nNo se puede asignar valor null a tipos de datos primitivos");
-        //number[0]= null; ERROR
+        //"No se puede asignar valor null a tipos de datos primitivos"
+        //number[0]= null; ERROR (number es tipo int)
 
     }
 }
