@@ -1,7 +1,10 @@
-import javax.swing.plaf.synth.SynthDesktopPaneUI;
+public class HelloWorld {
+    public static void main(String[] args) {
 
+        IO.println("Hola Java !");
+        String str1 = "hello";
+        String str2 = "hello";
 
-public static void main() {
-
-    IO.println("Hola Java !");
+        System.out.println("hello equals hello: " + str1.equals(str2));
+    }
 }
