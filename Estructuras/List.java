@@ -1,15 +1,14 @@
 package Practicas_Rodrigo.Estructuras;
 
 import java.util.ArrayList;
-/*En el caso de los ArrayList no tenemos q definir cuantas posiciones de indice queremos,
-    asi que es mas flexible y es lo mas común para trabajar*/
+
 public class List {
     static void main (){
-        //Declaracion y creacion
+        //Declaración y creación
         ArrayList<String> names = new ArrayList<>();//Hay que definir el tipo de array con <String> en este caso
 
-        var numbers = new ArrayList<Integer>();/*Para crear un arrayList de numeros enteros, tenemos q indicar <Integer>
-        por que con los datos primitivos da error.*/
+        var numbers = new ArrayList<Integer>();/*Para crear un arrayList de números enteros, tenemos q indicar <Integer>
+        porque con los datos primitivos da error.*/
 
         //tamaño del array
         //names.size();
@@ -37,13 +36,14 @@ public class List {
         //Eliminar elementos
         names.remove(1);
         IO.println(names.get(1));/*Cuando eliminas un elemento, todos los elementos que estaban después se desplazan una
-        posición hacia la izquierda para llenar el hueco, y el tamaño de la lista se reduce.En este caso a 3posiciones.
-        */
+        posición hacia la izquierda para llenar el hueco, y el tamaño de la lista se reduce.En este caso a 3posiciones.*/
+
         /*names.remove(3);
         IO.println(names.get(3));
-        Aqui da error (IndexOutOfBoundsException) porque intento acceder a
-        un índice que ya no existe*/
-        IO.println(names.size());
+        Aquí da error (IndexOutOfBoundsException) porque intento acceder a
+        un índice que ya no existe.  Al eliminar el índice 1 de antes, ya tenemos 3 elementos (0,1,2)*/
+
+        IO.println(names.size());//<--debe dar 3
 
         //Buscar elementos
         //names.contains("valor que busquemos");
