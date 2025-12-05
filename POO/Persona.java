@@ -1,4 +1,4 @@
-
+package Practicas_Rodrigo.POO;
 
 public class Persona {
     // Atributos
