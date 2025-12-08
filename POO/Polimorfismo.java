@@ -34,7 +34,7 @@ public static class Dog extends Animal{
         IO.println("Guau, guau, guau !"); //pongo el codigo q necesito en mi subclase Dog
     }
     //Al empezar a escribir el nombre del metodo, me sale ventanita y al pinchar se pone directamente el override.
-    //tan solo se necesita borrar la parte super.'x' y escribir el codigo q se necesite.
+    
     @Override
     public void eat() {
         IO.println("está comiendo carne");

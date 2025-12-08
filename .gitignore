@@ -1,7 +1,7 @@
-# Ignorar la configuración de IntelliJ
-/.idea/
-*.iml
+# Archivos de configuración de IntelliJ IDEA
+.idea/
 
-# Ignorar archivos compilados de Java
-*.class
-/out/
+# Archivos de compilación y salida (Java)
+*.iml
+out/
+build/
