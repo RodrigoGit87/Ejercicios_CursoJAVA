@@ -2,7 +2,6 @@ package Practicas_Rodrigo.POO;
 /*El polimorfismo permite q distintos objetos respondan de manera diferente al mismo metodo
 * ES redefinir mecanismos de los metodos*/
 
-
 public class Polimorfismo {
     static void main(){
         //Polimorfismo por herencia (sobreescritura)
@@ -47,7 +46,7 @@ public static class Dog extends Animal{
             return a+b;
         }
 
-        public double sum (double a, double b){//Mismo nombre de metodo, distinto tipo de variables
+        public double sum (double a, double b){ //Mismo nombre de metodo, distinto tipo de variables
             return a+ b;
         }
     }
