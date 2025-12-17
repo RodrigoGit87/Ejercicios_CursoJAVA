@@ -47,48 +47,48 @@ public class Operadores {
 
         IO.println(" a != b:" + (a != b)); // a es distinto de b?
 
-        IO.println("otros comparadores(faciles de entender a simple vista)");
+        IO.println("\notros comparadores(faciles de entender a simple vista)");
         IO.println(" a > b:" + (a > b));
         IO.println(" a >= b:" + (a >= b));
         IO.println(" a < b:" + (a < b));
         IO.println(" a <= b:" + (a <= b));
 
         // Lógicos
-
+        IO.println("\nLógicos");
         // Y (AND)
-        IO.println("Tabla de verdad con el operador Y &&");
+        IO.println("\nTabla de verdad con el operador Y &&");
         // Solo es verdad cuando los dos valores son verdad
-        IO.println(true && true);
-        IO.println(true && false);
-        IO.println(false && true);
-        IO.println(false && false);
+        IO.println("true && true: " + (true && true));
+        IO.println("true && false: " + (true && false));
+        IO.println("false && true: " + (false && true));
+        IO.println("false && false: " + (false && false));
 
         IO.println("Ejemplo, 3 > 1 && 5 == 8: " + (3 > 1 && 5 == 8));
 
         // O (OR)
-        IO.println("Tabla de verdad con el operador O ||");
+        IO.println("\nTabla de verdad con el operador O ||");
         // Solo es falso cuando los dos valores son falsos
-        IO.println(true || true);
-        IO.println(true || false);
-        IO.println(false || true);
-        IO.println(false || false);
+        IO.println("true || true: " + (true || true));
+        IO.println("true || false: " + (true || false));
+        IO.println("false || true: " + (false || true));
+        IO.println("false || false: " + (false || false));
         IO.println("Ejemplo, 3 > 1 || 5 == 8: " + (3 > 1 || 5 == 8));
 
         // NO (NOT)
         // Se usa el signo de admiracion
-        IO.println("El operador NOT ! Niega algo q es verdad, por tanto será falso y viceversa");
+        IO.println("\nEl operador NOT ! Niega algo q es verdad, por tanto será falso y viceversa");
         IO.println("Ejemplo, (!(3 > 1) || 5 == 8): " + (!(3 > 1) || 5 == 8));
 
         // Unarios
         IO.println("Unarios, valor de b=3");
 
-        IO.println("+b" + (+b));// lo hace positivo
-        IO.println("-b" + (-b));// lo hace negativo
-        IO.println("++b" + (++b));// Incremento; si esta delante va a incrementar el valor antes de imprimirlo
-        IO.println("b++" + (b++));/*
-                                   * Si el incremento va detrás, se imprime el valor actual y el valor final queda
-                                   * guardado hasta la proxima iteracion.
-                                   */
+        IO.println("+b: " + (+b));// lo hace positivo
+        IO.println("-b: " + (-b));// lo hace negativo
+        IO.println("++b: " + (++b));// Incremento; si esta delante va a incrementar el valor antes de imprimirlo
+        IO.println("b++: " + (b++));/*
+                                     * Si el incremento va detrás, se imprime el valor actual y el valor final queda
+                                     * guardado hasta la proxima iteracion.
+                                     */
         IO.println("Valor de b despues de la iteracion b++: " + (b));
         IO.println("--b" + (--b));// Decremento, igual q con el incremento
 
